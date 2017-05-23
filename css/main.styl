@@ -1,4 +1,4 @@
-#header
+.header
 	height 380px
 	text-align center
 	position relative
@@ -20,7 +20,7 @@ select
 	font-size 18px
 	padding-left 10px
 	height 48px
-	width 452px
+	width 50%
 	border: solid 1px #000
 	appearance none
 	-moz-appearance none
@@ -32,7 +32,7 @@ select
 	position relative
 	top 65%
 	height 112px
-	width 800px
+	width 60%
 	margin 0 auto
 	background-color #ffffff
 	border 1px solid rgba(0,0,0,0.2)
@@ -46,11 +46,12 @@ select
 		margin 0
 		padding 0
 		display inline-block
+		width 100%
 		li
-			float left
+			display inline-block
 			list-style none
 			height 42px
-			width 130px
+			width 15%
 			margin 0 15px
 			&:nth-child(1)
 				background-color #8A82CC
@@ -81,7 +82,9 @@ select
 				width 100%
 				height 200px
 				position relative
-				img
+				background-size cover
+				background-position center center
+				.img
 					width 100%
 					height 100%
 				.name

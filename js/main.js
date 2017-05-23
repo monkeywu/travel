@@ -6,9 +6,10 @@ var q1 = document.querySelector('.quickselect');
 function update(e){
 	var select = e.target.value;
 	var str = '';
+
 	for (i=0;i<len;i++){
 		if (select == data[i].Zone){
-			str += '<li class="col-sm-6"><div class="top"><img src='+data[i].Picture1+'><span class="name">'+data[i].Name+'</span><span class="zone">'+data[i].Zone+'</span></div><div class="bottom"><span><image src="image/icons_clock.png">'+data[i].Opentime+'</span><span><image src="image/icons_pin.png">'+data[i].Add+'</span><span><image src="image/icons_phone.png">'+data[i].Tel+'</span><span class="visit"><image src="image/icons_tag.png">'+data[i].Ticketinfo+'</span></div></li>'
+			str += '<li class="col-sm-6"><div class="top" style="background-image:url('+data[i].Picture1+')"><span class="name">'+data[i].Name+'</span><span class="zone">'+data[i].Zone+'</span></div><div class="bottom"><span><image src="image/icons_clock.png">'+data[i].Opentime+'</span><span><image src="image/icons_pin.png">'+data[i].Add+'</span><span><image src="image/icons_phone.png">'+data[i].Tel+'</span><span class="visit"><image src="image/icons_tag.png">'+data[i].Ticketinfo+'</span></div></li>'
 		}
 	}
 	list.innerHTML = str;
@@ -20,7 +21,7 @@ function quick(e){
 	var str = '';
 	for (i=0;i<len;i++){
 		if (select == data[i].Zone){
-			str += '<li class="col-sm-6"><div class="top"><img src='+data[i].Picture1+'><span class="name">'+data[i].Name+'</span><span class="zone">'+data[i].Zone+'</span></div><div class="bottom"><span><image src="image/icons_clock.png">'+data[i].Opentime+'</span><span><image src="image/icons_pin.png">'+data[i].Add+'</span><span><image src="image/icons_phone.png">'+data[i].Tel+'</span><span class="visit"><image src="image/icons_tag.png">'+data[i].Ticketinfo+'</span></div></li>'
+			str += '<li class="col-sm-6"><div class="top" style="background-image:url('+data[i].Picture1+')"><span class="name">'+data[i].Name+'</span><span class="zone">'+data[i].Zone+'</span></div><div class="bottom"><span><image src="image/icons_clock.png">'+data[i].Opentime+'</span><span><image src="image/icons_pin.png">'+data[i].Add+'</span><span><image src="image/icons_phone.png">'+data[i].Tel+'</span><span class="visit"><image src="image/icons_tag.png">'+data[i].Ticketinfo+'</span></div></li>'
 		}
 	}
 	list.innerHTML = str;
