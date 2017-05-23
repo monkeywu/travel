@@ -118,8 +118,18 @@ select {
   bottom: 5%;
   right: 5%;
 }
+.content .list li .bottom {
+  border: 1px solid rgba(0,0,0,0.2);
+  padding-bottom: 15px;
+  position: relative;
+}
+.content .list li .bottom .visit {
+  position: absolute;
+  right: 20%;
+  bottom: 15%;
+}
 .content .list li .bottom span {
-  margin: 5px 0 0 5px;
+  margin: 12px 0 0 15px;
   display: block;
   font-size: 12px;
 }
