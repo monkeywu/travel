@@ -1,0 +1,146 @@
+#header {
+  height: 380px;
+  text-align: center;
+  position: relative;
+}
+#header h1 {
+  color: #fff;
+  position: relative;
+  top: 25%;
+  margin: 0;
+}
+#header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 380px;
+}
+form {
+  position: relative;
+  top: 45%;
+}
+select {
+  font-size: 18px;
+  padding-left: 10px;
+  height: 48px;
+  width: 452px;
+  border: solid 1px #000;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding-right: 14px;
+  background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+  background-color: rgba(255,255,255,0.7);
+}
+.section {
+  position: relative;
+  top: 65%;
+  height: 112px;
+  width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+.section h2 {
+  font-size: 18px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 26px;
+}
+.section ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.section ul li {
+  float: left;
+  list-style: none;
+  height: 42px;
+  width: 130px;
+  margin: 0 15px;
+}
+.section ul li:nth-child(1) {
+  background-color: #8a82cc;
+}
+.section ul li:nth-child(2) {
+  background-color: #ffa782;
+}
+.section ul li:nth-child(3) {
+  background-color: #f5d105;
+}
+.section ul li:nth-child(4) {
+  background-color: #559ac8;
+}
+.section ul li a {
+  font-size: 20px;
+  color: #fff;
+  line-height: 42px;
+  transition: all 0.4s;
+}
+.section ul li a:hover {
+  text-decoration: none;
+  color: #111;
+}
+.content {
+  padding: 100px 0;
+}
+.content .list {
+  padding: 0;
+}
+.content .list li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  float: left;
+}
+.content .list li .top {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+.content .list li .top img {
+  width: 100%;
+  height: 100%;
+}
+.content .list li .top .name {
+  font-size: 24px;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: #fff;
+}
+.content .list li .top .zone {
+  font-size: 16px;
+  position: absolute;
+  color: #fff;
+  bottom: 5%;
+  right: 5%;
+}
+.content .list li .bottom span {
+  margin: 5px 0 0 5px;
+  display: block;
+  font-size: 12px;
+}
+.content .list li .bottom span img {
+  margin-right: 10px;
+}
+.footer {
+  background: #559ac8;
+  text-align: center;
+  height: 90px;
+}
+.footer .footerinfo {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footer .footerinfo h3 {
+  font-size: 14px;
+  color: #fff;
+}
+.footer .footerinfo span {
+  font-size: 14px;
+  color: #ffd366;
+}
